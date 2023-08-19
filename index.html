@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Abdulhadi Abdn | A Web Developer.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <!--<li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>-->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Abdulhadi Shukri Saeed Abdn</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Web Developer based in Bangalore, India.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text" data-aos="zoom-in">
+              <h3>E-Alarm</h3>
+              <p>
+                An alarm based system for security of the society.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>SQLAlchemy</li>
+              </ul>
+            </div>
+            <div class="work__image-box carousel slide" id="carouselExampleControls" data-ride="false" data-aos="slide-up">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-1 (4).png" class="work__image" alt="Project 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-1 (3).png" class="work__image" alt="Project 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-1 (2).png" class="work__image" alt="Project 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-1 (1).png" class="work__image" alt="Project 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-1 (5).png" class="work__image" alt="Project 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-1 (6).png" class="work__image" alt="Project 1" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text" data-aos="zoom-in">
+              <h3>E-Mechanic</h3>
+              <p>
+                The "Emergency Mechanic" project offers 24/7 on-site vehicle repairs, maintenance, and towing, providing quick, reliable, 
+                and accessible assistance to drivers in emergencies.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>SQLAlchemy</li>
+              </ul>
+            </div>
+            <div class="work__image-box carousel slide" id="carouselExampleControls2" data-ride="false" data-aos="slide-up">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-2 (2).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (1).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (8).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (3).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (4).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (5).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (6).png" class="work__image" alt="Project 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-2 (7).png" class="work__image" alt="Project 2" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text" data-aos="zoom-in">
+              <h3>Personal Blog</h3>
+              <p>
+                This is a free template for a personal blog that is designed for personal uses only.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="work__image-box carousel slide" id="carouselExampleControls3" data-ride="false" data-aos="slide-up">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-3 (1).png" class="work__image" alt="Project 3" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-3 (3).png" class="work__image" alt="Project 3" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-3 (2).png" class="work__image" alt="Project 3" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text" data-aos="zoom-in">
+              <h3>Tindog</h3>
+              <p>
+                "TinDog: Connecting Canines" is a website catering to dogs, facilitating social interactions, 
+                playdates, and connections among furry companions for a happier canine community.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="work__image-box carousel slide" id="carouselExampleControls4" data-ride="false" data-aos="slide-up">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-4 (1).png" class="work__image" alt="Project 4" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-4 (2).png" class="work__image" alt="Project 4" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-4 (3).png" class="work__image" alt="Project 4" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-4 (4).png" class="work__image" alt="Project 4" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text" data-aos="zoom-in">
+              <h3>Dicee Game</h3>
+              <p>
+                The "Dicee Game" project presents an engaging digital dice game where players roll virtually, 
+                offering entertainment and chance in a user-friendly interface.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+              </ul>
+            </div>
+            <div class="work__image-box carousel slide" id="carouselExampleControls5" data-ride="false" data-aos="slide-up">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-5 (1).png" class="work__image" alt="Project 5" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-5 (2).png" class="work__image" alt="Project 5" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-5 (3).png" class="work__image" alt="Project 5" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text" data-aos="zoom-in">
+              <h3>Simon Game</h3>
+              <p>
+                The "Simon Squares" game features four colored squares, 
+                challenging players to repeat an increasingly complex sequence for entertainment and cognitive stimulation.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+              </ul>
+            </div>
+            <div class="work__image-box carousel slide" id="carouselExampleControls6" data-ride="false" data-aos="slide-up">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/project-6 (2).png" class="work__image" alt="Project 6" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/project-6 (1).png" class="work__image" alt="Project 6" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am a dedicated web developer with a passion for crafting dynamic digital experiences. 
+              Proficient in HTML, CSS, and JavaScript, I create responsive websites and interactive applications using modern frameworks like React and Bootstrap. 
+              With an eye for detail and problem-solving skills, I excel in turning design concepts into polished products. 
+              I thrive in collaborative environments and am eager to contribute my expertise to innovative web solutions. 
+              Thank you for considering my portfolio. Let's create something exceptional together.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1WW7CdW3jhiSAbhwljfK7Jymgg09nj_gi/view?usp=sharing" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/IMG_93662.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you in search of an enthusiastic and dedicated entry-level web developer to bring life to your digital presence? 
+          Need a user-friendly website for your business or project? Seeking professional advice or simply want to connect? 
+          Don't hesitate to reach out! I'm here to help and learn. Whether it's a question, consultation, or just a friendly "Hello 👋," 
+          your message is valuable to me. I'm committed to providing prompt responses and making your web development vision a reality. 
+          Feel free to connect via email for the quickest response. Let's take your ideas to the virtual realm together!
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:abdulhadiabdn@gmail.com" class="btn">Send me Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/abdn2001" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/AbdulhadiAbdn" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/abdn.2001/" title="Link to Codepen Profile">
+            <img src="./images/Instagram.png" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/abdulhadi-abdn/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2023 - Template designed & developed by Abdulhadi Abdn.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
